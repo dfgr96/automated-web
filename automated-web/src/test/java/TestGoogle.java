@@ -29,6 +29,6 @@ public class TestGoogle {
         JSONObject js = (JSONObject) ob;
         findElements = new FindElements(driver);
         findElements.setInputGoogle(js.get("firstName").toString());
-        //driver.quit();
+        driver.quit();
     }
 }
