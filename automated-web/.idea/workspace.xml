@@ -4,14 +4,29 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5a4cbd47-97bc-4530-b6f8-1f8a75063c68" name="Changes" comment="" />
+    <list default="true" id="5a4cbd47-97bc-4530-b6f8-1f8a75063c68" name="Changes" comment="Add driver quit">
+      <change afterPath="$PROJECT_DIR$/src/test/java/TestRestAssured.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/chromedriver" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/chromedriver" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/TestGoogle.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/TestGoogle.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/chromedriver" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/chromedriver" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/datos.json" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/datos.json" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -35,6 +50,79 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="vcs.Git" />
   </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/test/resources" />
+    </key>
+  </component>
+  <component name="RunManager" selected="TestNG.TestRestAssured.testApi">
+    <configuration name="TestGoogle (1)" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="automated-web" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="TestGoogle" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestGoogle" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="automated-web" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="TestGoogle" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestGoogle.testGoogleSearch" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="automated-web" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="TestGoogle" />
+      <option name="METHOD_NAME" value="testGoogleSearch" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestRestAssured" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="automated-web" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="TestRestAssured" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestRestAssured.testApi" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="automated-web" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="TestRestAssured" />
+      <option name="METHOD_NAME" value="testApi" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="TestNG.TestRestAssured.testApi" />
+        <item itemvalue="TestNG.TestRestAssured" />
+        <item itemvalue="TestNG.TestGoogle" />
+        <item itemvalue="TestNG.TestGoogle (1)" />
+        <item itemvalue="TestNG.TestGoogle.testGoogleSearch" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -45,5 +133,16 @@
       <updated>1648931701280</updated>
     </task>
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>
