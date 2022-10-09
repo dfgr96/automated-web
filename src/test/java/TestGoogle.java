@@ -30,12 +30,16 @@ public class TestGoogle {
         JSONObject js = (JSONObject) ob;
         findElements = new FindElements(driver);
         findElements.setInputGoogle(js.get("firstName").toString());
+
         int length = js.get("age").toString().length();
         System.out.println(length);
         if (length < 6) {
             String newAge = "0" + js.get("age").toString();
             System.out.println(newAge);
             js.put("newAge",newAge);
+            System.out.println(newAge.substring(0, 4));
+        }else {
+            System.out.println(js.get("age").toString().substring(0, 4));
         }
 
         driver.quit();
